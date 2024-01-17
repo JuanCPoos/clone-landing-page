@@ -1,0 +1,46 @@
+*{    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fff;
+    font-family: 'Inter', sans-serif;    
+}
+
+header{        
+    
+    .bar-nav{
+        display: inline-flex;    
+        
+    }
+}
+
+main{
+    background-color: #aab5ba;
+    margin: 1em 0em;
+    padding: 1em 0em;;
+    #twitter-dash{
+        
+        .barra-signIn{            
+            display: flex;
+            
+            .btn-twitter{            
+                width: 100%;
+                background-color: #00ACEE;
+                color: #fff;
+                padding: 5px 10px;
+            }
+        }
+    }
+}
+
+
+/* media queries */
+
+@media only screen and (max-width: 600px) {
+    #twitter-dash{
+        display: flex;
+        flex-direction: column;
+    }
+}
